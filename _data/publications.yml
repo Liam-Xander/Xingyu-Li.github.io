@@ -1,7 +1,7 @@
 main:
 
   - title: Real-Time Occupancy Grid Mapping Using RMM on Large-scale and Unstructured Environments
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
+    authors: <strong>Xingyu Li</strong>, Hongyu Nie*, Xu Liu, Haoxuan Xu, Xingrui Liu, Zhaotong Tan (*Corresponding authors)
     conference_short: IROS
     conference: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025."
     pdf: https://arxiv.org/pdf/2306.00988.pdf
@@ -12,9 +12,8 @@ main:
     notes: Oral Presentation
 
   - title: "GeoSafe: A Unified Unconstrained Multi-DOF Optimization Framework for Multi-UAV Cooperative Hoisting and Obstacle Avoidance"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
+    authors: <strong>Xingyu Li</strong>, Hongyu Nie*, Xu Liu, Haoxuan Xu, Xingrui Liu, Zhaotong Tan, Chunyu Jiang, Yang Feng, Sen Mei* (*Corresponding authors)
     conference_short: IROS
-    # conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
     conference: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025."
     pdf: https://arxiv.org/pdf/2002.10211.pdf
     code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
