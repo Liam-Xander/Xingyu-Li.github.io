@@ -2,8 +2,8 @@ main:
 
   - title: Real-Time Occupancy Grid Mapping Using RMM on Large-scale and Unstructured Environments
     authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: IROS2025
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
+    conference_short: IROS
+    conference: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025."
     pdf: https://arxiv.org/pdf/2306.00988.pdf
     code: https://github.com/MrGiovanni/ContinualLearning
     bibtex: https://bib.yliu.me/MICCAI23.txt
