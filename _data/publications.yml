@@ -1,70 +1,48 @@
-# main:
-
-#   - title: Real-Time Occupancy Grid Mapping Using RMM on Large-scale and Unstructured Environments
-#     authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-#     conference_short: IROS2025
-#     conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-#     pdf: https://arxiv.org/pdf/2306.00988.pdf
-#     code: https://github.com/MrGiovanni/ContinualLearning
-#     bibtex: https://bib.yliu.me/MICCAI23.txt
-#     image: ./assets/img/teaser_example_2.png
-#     notes: Oral Presentation
-
-#   - title: "GeoSafe: A Unified Unconstrained Multi-DOF Optimization Framework for Multi-UAV Cooperative Hoisting and Obstacle Avoidance"
-#     authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-#     conference_short: IROS2025
-#     conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-#     pdf: https://arxiv.org/pdf/2002.10211.pdf
-#     code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-#     page: https://class-il.mpi-inf.mpg.de/mnemonics/
-#     bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-#     notes: Oral Presentation
-#     image: ./assets/img/teaser_example.png
-
-# main:
-
-#   - title: Real-Time Occupancy Grid Mapping Using RMM on Large-scale and Unstructured Environments
-#     authors: <strong>Xingyu Li</strong>, Hongyu Nie*, Xu Liu, Haoxuan Xu, Xingrui Liu, Zhaotong Tan (*Corresponding authors)
-#     conference_short: IROS
-#     conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2025.
-#     pdf: https://arxiv.org/pdf/2306.00988.pdf
-#     code: https://github.com/MrGiovanni/ContinualLearning
-#     bibtex: https://bib.yliu.me/MICCAI23.txt
-#     image: ./assets/img/teaser_example_2.png
-#     notes: Oral Presentation
-
-#   - title: GeoSafe: A Unified Unconstrained Multi-DOF Optimization Framework for Multi-UAV Cooperative Hoisting and Obstacle Avoidance
-#     authors: <strong>Xingyu Li</strong>, Hongyu Nie*, Xu Liu, Haoxuan Xu, Xingrui Liu, Zhaotong Tan, Chunyu Jiang, Yang Feng, Sen Mei* (*Corresponding authors)
-#     conference_short: IROS
-#     conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2025.
-#     pdf: https://arxiv.org/pdf/2002.10211.pdf
-#     code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-#     page: https://class-il.mpi-inf.mpg.de/mnemonics/
-#     bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-#     image: ./assets/img/teaser_example_2.png
-#     notes: Oral Presentation
-
 main:
 
   - title: Real-Time Occupancy Grid Mapping Using RMM on Large-scale and Unstructured Environments
-    authors: <strong>Xingyu Li</strong>, Hongyu Nie*, Xu Liu, Haoxuan Xu, Xingrui Liu, Zhaotong Tan (*Corresponding authors)
+    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
     conference_short: IROS
     conference: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025."
     pdf: https://arxiv.org/pdf/2306.00988.pdf
     code: https://github.com/MrGiovanni/ContinualLearning
     bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/teaser_example_2.png
-    video: https://youtu.be/xtwMVSegKxE
     notes: Oral Presentation
 
-  - title: GeoSafe: A Unified Unconstrained Multi-DOF Optimization Framework for Multi-UAV Cooperative Hoisting and Obstacle Avoidance
-    authors: <strong>Xingyu Li</strong>, Hongyu Nie*, Xu Liu, Haoxuan Xu, Xingrui Liu, Zhaotong Tan, Chunyu Jiang, Yang Feng, Sen Mei* (*Corresponding authors)
-    conference_short: IROS
-    conference: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025."
+  - title: "GeoSafe: A Unified Unconstrained Multi-DOF Optimization Framework for Multi-UAV Cooperative Hoisting and Obstacle Avoidance"
+    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
+    conference_short: IROS2025
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
     pdf: https://arxiv.org/pdf/2002.10211.pdf
     code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     page: https://class-il.mpi-inf.mpg.de/mnemonics/
     bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    image: ./assets/img/teaser_example_2.png
-    video: https://youtu.be/eZcdj34zb84
     notes: Oral Presentation
+    image: ./assets/img/teaser_example.png
+
+
+# main:
+
+#   - title: Real-Time Occupancy Grid Mapping Using RMM on Large-scale and Unstructured Environments
+#     authors: <strong>Xingyu Li</strong>, Hongyu Nie*, Xu Liu, Haoxuan Xu, Xingrui Liu, Zhaotong Tan (*Corresponding authors)
+#     conference_short: IROS
+#     conference: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025."
+#     pdf: https://arxiv.org/pdf/2306.00988.pdf
+#     code: https://github.com/MrGiovanni/ContinualLearning
+#     bibtex: https://bib.yliu.me/MICCAI23.txt
+#     image: ./assets/img/teaser_example_2.png
+#     video: https://youtu.be/xtwMVSegKxE
+#     notes: Oral Presentation
+
+#   - title: GeoSafe: A Unified Unconstrained Multi-DOF Optimization Framework for Multi-UAV Cooperative Hoisting and Obstacle Avoidance
+#     authors: <strong>Xingyu Li</strong>, Hongyu Nie*, Xu Liu, Haoxuan Xu, Xingrui Liu, Zhaotong Tan, Chunyu Jiang, Yang Feng, Sen Mei* (*Corresponding authors)
+#     conference_short: IROS
+#     conference: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025."
+#     pdf: https://arxiv.org/pdf/2002.10211.pdf
+#     code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+#     page: https://class-il.mpi-inf.mpg.de/mnemonics/
+#     bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+#     image: ./assets/img/teaser_example_2.png
+#     video: https://youtu.be/eZcdj34zb84
+#     notes: Oral Presentation
