@@ -9,9 +9,9 @@ I'm Xingyu Li (李星宇) from China, and I'm currently focusing on UAVs, autono
 
 ## Research Interests
 
-- **Robotics and Autonomous Systems:** UAV control, multi-UAV cooperative systems, autonomous flight planning
-- **Mapping and Localization:** Real-time occupancy grid mapping, lightweight mapping algorithms, perception-aware trajectory planning
 - **Machine Learning for Robotics:** ML-based mapping, optimization frameworks, large-scale environment perception
+- **Mapping and Localization:** Real-time occupancy grid mapping, lightweight mapping algorithms, perception-aware trajectory planning
+- **Robotics and Autonomous Systems:** Multi-UAV cooperative systems, autonomous flight planning
 
 ## News
 
