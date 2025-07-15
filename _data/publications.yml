@@ -27,12 +27,14 @@ main:
     authors: <strong>Nie, Hongyu*†</strong>, <strong>Li, Xingyu†</strong>, Liu, Xu, Li, Decai, He, Yuqing
     journal_short: RA-L
     journal: "IEEE Robotics and Automation Letters, 2025"
+    image: ./assets/img/teaser_example_2.png
     notes: "Accepted on May 22, 2025; * Corresponding author; † Co–first authors (Nie, Hongyu and Li, Xingyu)"
 
   - title: "Unified Linear Parametric Map Modeling and Perception-aware Trajectory Planning for Mobile Robotics"
     authors: <strong>Nie, Hongyu†</strong>, <strong>Li, Xingyu†</strong>, Liu, Xu*, Tan, Zhaotong, Mei, Sen, Su, Wenbo
     journal_short: Submitted to TRO
     journal: "Submitted to IEEE Transactions on Robotics (TRO), July 2025"
+    image: ./assets/img/teaser_example.png
     pdf: https://arxiv.org/abs/2507.09340
     notes: "Currently available on arXiv; * Corresponding author; † Co–first authors (Nie, Hongyu and Li, Xingyu)"
 
