@@ -4,12 +4,13 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I'm Xingyu Li (李星宇) from China, and I'm currently focusing on UAVs, autonomous vehicles, machine learning, and lightweight mapping based on ML. I am applying for a Ph.D. program for Fall 2026.
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Robotics and Autonomous Systems:** UAV control, multi-UAV cooperative systems, autonomous flight planning
+- **Mapping and Localization:** Real-time occupancy grid mapping, lightweight mapping algorithms, perception-aware trajectory planning
+- **Machine Learning for Robotics:** ML-based mapping, optimization frameworks, large-scale environment perception
 
 ## News
 
