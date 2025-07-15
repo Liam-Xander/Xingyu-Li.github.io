@@ -4,7 +4,8 @@ layout: homepage
 
 ## About Me
 
-I'm Xingyu Li (李星宇) from China, and I'm currently focusing on UAVs, autonomous vehicles, machine learning, and lightweight mapping based on ML. I am applying for a Ph.D. program for Fall 2026.
+I'm Xingyu Li (李星宇) from China, and I'm currently focusing on UAVs, autonomous vehicles, machine learning, and lightweight mapping based on ML. 
+<span style="color: #1976d2;">I am applying for a Ph.D. program for Fall 2026.</span>
 
 ## Research Interests
 
