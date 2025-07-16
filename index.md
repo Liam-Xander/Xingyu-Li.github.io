@@ -11,7 +11,7 @@ I'm Xingyu Li (李星宇) from China, and I'm currently focusing on UAVs, autono
 
 - **Machine Learning for Robotics:** ML-based mapping, optimization frameworks, large-scale environment perception
 - **Mapping and Localization:** Real-time occupancy grid mapping, lightweight mapping algorithms, perception-aware trajectory planning
-- **Robotics and Autonomous Systems:** Multi-UAV cooperative systems, autonomous flight planning
+- **Robotics and Autonomous Systems:** Autonomous flight planning, multi-UAV cooperative systems, autonomous vehicle systems
 
 <!-- ## News
 
