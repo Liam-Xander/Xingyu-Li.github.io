@@ -1,6 +1,6 @@
 {
   "env": {
-    "ANTHROPIC_AUTH_TOKEN": "sk-vIL5NOp108Sws2GVXo3reuSxEilPZoqVe28611T2rxyRTSDA",
+    "ANTHROPIC_AUTH_TOKEN": "sk-EtWfLQVaYtO8iq4H2YVhNoGfwS1aPEGbkSfeFUrRJ0Ad7QVc",
     "ANTHROPIC_BASE_URL": "https://anyrouter.top"
   },
   "permissions": {
@@ -20,7 +20,8 @@
       "NotebookEdit",
       "TodoRead",
       "TodoWrite",
-      "WebSearch"
+      "WebSearch",
+      "Always reply in Chinese."
     ],
     "deny": [
       "WebFetch",
