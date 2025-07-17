@@ -16,9 +16,9 @@
     {% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}" id="pub{{ forloop.index }}-title">{{ link.title }}</a></div>
-      <div class="author" id="pub{{ forloop.index }}-authors">{{ link.authors }}</div>
-      <div class="periodical"><em id="pub{{ forloop.index }}-conference">{{ link.conference }}</em>
+      <div class="title"><a href="{{ link.pdf }}" id="pub{{ forloop.index }}-title" data-en="{{ link.title }}" data-zh="{{ link.title_zh }}">{{ link.title }}</a></div>
+      <div class="author" id="pub{{ forloop.index }}-authors" data-en="{{ link.authors }}" data-zh="{{ link.authors_zh }}">{{ link.authors }}</div>
+      <div class="periodical"><em id="pub{{ forloop.index }}-conference" data-en="{{ link.conference }}" data-zh="{{ link.conference_zh }}">{{ link.conference }}</em>
       </div>
     <div class="links">
       {% if link.pdf %} 
@@ -37,7 +37,7 @@
       <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
       {% endif %}
       {% if link.notes %} 
-      <strong> <i style="color:#e74d3c" id="pub{{ forloop.index }}-notes">{{ link.notes }}</i></strong>
+      <strong> <i style="color:#e74d3c" id="pub{{ forloop.index }}-notes" data-en="{{ link.notes }}" data-zh="{{ link.notes_zh }}">{{ link.notes }}</i></strong>
       {% endif %}
       {% if link.others %} 
       {{ link.others }}
