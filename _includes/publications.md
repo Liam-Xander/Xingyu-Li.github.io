@@ -11,14 +11,14 @@
     {% if link.image %} 
     <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
     {% if link.conference_short %} 
-    <abbr class="badge">{{ link.conference_short }}</abbr>
+    <abbr class="badge" id="pub{{ forloop.index }}-conf-short">{{ link.conference_short }}</abbr>
     {% endif %}
     {% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
-      <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
+      <div class="title"><a href="{{ link.pdf }}" id="pub{{ forloop.index }}-title">{{ link.title }}</a></div>
+      <div class="author" id="pub{{ forloop.index }}-authors">{{ link.authors }}</div>
+      <div class="periodical"><em id="pub{{ forloop.index }}-conference">{{ link.conference }}</em>
       </div>
     <div class="links">
       {% if link.pdf %} 
@@ -37,7 +37,7 @@
       <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
       {% endif %}
       {% if link.notes %} 
-      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
+      <strong> <i style="color:#e74d3c" id="pub{{ forloop.index }}-notes">{{ link.notes }}</i></strong>
       {% endif %}
       {% if link.others %} 
       {{ link.others }}

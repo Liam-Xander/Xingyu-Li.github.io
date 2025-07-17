@@ -81,17 +81,14 @@ function applyTranslations(lang) {
   document.querySelectorAll('h2')[2].innerText = t.publications;
   document.querySelectorAll('h2')[3].innerText = t.services;
 
-  const pubs = document.querySelectorAll('.pub-row');
-  for (let i = 0; i < pubs.length; i++) {
-    const pub = pubs[i];
-    const pubNum = i + 1;
-    pub.querySelector('.title a').innerText = t[`pub${pubNum}Title`];
-    pub.querySelector('.author').innerHTML = t[`pub${pubNum}Authors`];
-    pub.querySelector('.periodical em').innerText = t[`pub${pubNum}Conference`];
-    pub.querySelector('.badge').innerText = t[`pub${pubNum}conf_short`];
-    const notesElement = pub.querySelector('.links strong i');
+  for (let i = 1; i <= 4; i++) {
+    document.getElementById(`pub${i}-title`).innerText = t[`pub${i}Title`];
+    document.getElementById(`pub${i}-authors`).innerHTML = t[`pub${i}Authors`];
+    document.getElementById(`pub${i}-conference`).innerText = t[`pub${i}Conference`];
+    document.getElementById(`pub${i}-conf-short`).innerText = t[`pub${i}conf_short`];
+    const notesElement = document.getElementById(`pub${i}-notes`);
     if (notesElement) {
-      notesElement.innerText = t[`pub${pubNum}notes`];
+      notesElement.innerText = t[`pub${i}notes`];
     }
   }
 }
