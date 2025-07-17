@@ -1,5 +1,3 @@
-
-
 const translations = {
   en: {
     aboutMe: "About Me",
@@ -81,13 +79,30 @@ function applyTranslations(lang) {
   document.querySelectorAll('h2')[2].innerText = t.publications;
   document.querySelectorAll('h2')[3].innerText = t.services;
 
-  for (let i = 1; i <= 4; i++) {
-    document.getElementById(`pub${i}-title`).innerText = t[`pub${i}Title`];
-    document.getElementById(`pub${i}-authors`).innerHTML = t[`pub${i}Authors`];
-    document.getElementById(`pub${i}-conference`).innerText = t[`pub${i}Conference`];
-    document.getElementById(`pub${i}-conf-short`).innerText = t[`pub${i}conf_short`];
+  const numPublications = document.querySelectorAll('.pub-row').length;
+  for (let i = 1; i <= numPublications; i++) {
+    const titleElement = document.getElementById(`pub${i}-title`);
+    if (titleElement && t[`pub${i}Title`]) {
+      titleElement.innerText = t[`pub${i}Title`];
+    }
+    
+    const authorsElement = document.getElementById(`pub${i}-authors`);
+    if (authorsElement && t[`pub${i}Authors`]) {
+      authorsElement.innerHTML = t[`pub${i}Authors`];
+    }
+
+    const conferenceElement = document.getElementById(`pub${i}-conference`);
+    if (conferenceElement && t[`pub${i}Conference`]) {
+      conferenceElement.innerText = t[`pub${i}Conference`];
+    }
+
+    const confShortElement = document.getElementById(`pub${i}-conf-short`);
+    if (confShortElement && t[`pub${i}conf_short`]) {
+      confShortElement.innerText = t[`pub${i}conf_short`];
+    }
+
     const notesElement = document.getElementById(`pub${i}-notes`);
-    if (notesElement) {
+    if (notesElement && t[`pub${i}notes`]) {
       notesElement.innerText = t[`pub${i}notes`];
     }
   }
@@ -95,5 +110,16 @@ function applyTranslations(lang) {
 
 document.addEventListener('DOMContentLoaded', () => {
   const savedLang = localStorage.getItem('language') || 'en';
+  const langToggle = document.getElementById('lang-toggle');
+
+  if (savedLang === 'zh') {
+    langToggle.checked = true;
+  }
+
   applyTranslations(savedLang);
+
+  langToggle.addEventListener('change', () => {
+    const lang = langToggle.checked ? 'zh' : 'en';
+    switchLanguage(lang);
+  });
 });
