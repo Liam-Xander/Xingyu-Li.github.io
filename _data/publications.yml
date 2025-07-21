@@ -1,0 +1,56 @@
+main:
+
+  - title: Real-Time Occupancy Grid Mapping Using RMM on Large-scale and Unstructured Environments
+    title_zh: 在大型非结构化环境中使用RMM进行实时占据栅格建图
+    authors: "<strong>Xingyu Li</strong>, Hongyu Nie*, Xu Liu, Haoxuan Xu, Xingrui Liu, Zhaotong Tan (*Corresponding authors)"
+    authors_zh: "<strong>李星宇</strong>, 聂宏宇*, 刘旭, 徐浩轩, 刘兴瑞, 谭朝勇 (*通讯作者)"
+    conference_short: IROS25
+    conference: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025."
+    conference_zh: "IEEE/RSJ 智能机器人与系统国际会议 (IROS), 2025."
+    pdf: https://arxiv.org/pdf/2306.00988.pdf
+    code: https://github.com/Liam-Xander/RMM-UAV-Exploration
+    bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/exploration.png
+    video: https://youtu.be/xtwMVSegKxE
+    notes: Oral Presentation
+    notes_zh: 口头报告
+
+  - title: "GeoSafe: A Unified Unconstrained Multi-DOF Optimization Framework for Multi-UAV Cooperative Hoisting and Obstacle Avoidance"
+    title_zh: "GeoSafe: 一种用于多无人机协同吊装和避障的统一无约束多自由度优化框架"
+    authors: "<strong>Xingyu Li</strong>, Hongyu Nie, Xu Liu, Haoxuan Xu, Xingrui Liu, Zhaotong Tan, Chunyu Jiang, Yang Feng, Sen Mei* (*Corresponding authors)"
+    authors_zh: "<strong>李星宇</strong>, 聂宏宇, 刘旭, 徐浩轩, 刘兴瑞, 谭朝勇, 蒋春余, 冯旸, 梅森* (*通讯作者)"
+    conference_short: IROS25
+    conference: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025."
+    conference_zh: "IEEE/RSJ 智能机器人与系统国际会议 (IROS), 2025."
+    pdf: https://arxiv.org/pdf/2002.10211.pdf
+    code: https://github.com/Liam-Xander/RMM-UAV-Exploration
+    page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: Oral Presentation
+    image: ./assets/img/multi_uav.png
+    video: https://youtu.be/eZcdj34zb84
+
+  - title: "FELP: Fast and Effective Autonomous Flight on Large-scale and Cluttered Environments Based on Unified Linear Parametric Map"
+    title_zh: "FELP: 基于统一线性参数化地图的大规模复杂环境下快速高效的自主飞行"
+    authors: "<strong>Hongyu Nie*†</strong>, <strong>Xingyu Li†</strong>, Xu Liu, Decai Li, Yuqing He"
+    authors_zh: "<strong>聂虹宇*†</strong>, <strong>李星宇†</strong>, 刘旭, 李德才, 何玉庆"
+    conference_short: RA-L25
+    conference: "IEEE Robotics and Automation Letters, 2025"
+    conference_zh: "IEEE 机器人与自动化快报, 2025"
+    image: ./assets/img/ral.png
+    notes: "Accepted on May 22, 2025; * Corresponding author; † Co–first authors (Hongyu Nie and Xingyu Li)"
+    notes_zh: "2025年5月22日接受；*通讯作者；†共同第一作者（聂宏宇和李星宇）"
+    video: https://youtu.be/eZcdj34zb84
+
+  - title: "Unified Linear Parametric Map Modeling and Perception-aware Trajectory Planning for Mobile Robotics"
+    title_zh: "面向移动机器人的统一线性参数化地图建模与感知-规划一体化"
+    authors: "<strong>Hongyu Nie†</strong>, <strong>Xingyu Li†</strong>, Xu Liu*, Zhaotong Tan, Sen Mei, Wenbo Su"
+    authors_zh: "<strong>聂宏宇†</strong>, <strong>李星宇†</strong>, 刘旭*, 谭朝勇, 梅森, 苏文博"
+    conference_short: Submitted to TRO
+    conference: "Submitted to IEEE Transactions on Robotics (TRO), July 2025"
+    conference_zh: "投稿至 IEEE Transactions on Robotics (TRO), 2025年7月"
+    image: ./assets/img/tro.png
+    pdf: https://arxiv.org/abs/2507.09340
+    notes: "Currently available on arXiv; * Corresponding author; † Co–first authors (Hongyu Nie and Xingyu Li)"
+    notes_zh: "目前可在 arXiv 上获取；*通讯作者；†共同第一作者（聂宏宇和李星宇）"
+    video: https://youtu.be/eZcdj34zb84

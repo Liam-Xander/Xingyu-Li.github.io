@@ -1,0 +1,31 @@
+{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "sk-vIL5NOp108Sws2GVXo3reuSxEilPZoqVe28611T2rxyRTSDA",
+    "ANTHROPIC_BASE_URL": "https://anyrouter.top"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(npm run lint)",
+      "Read(~/.bashrc)",
+      "Bash",
+      "Read",
+      "Edit",
+      "Write",
+      "WebFetch",
+      "Grep",
+      "Glob",
+      "LS",
+      "MultiEdit",
+      "NotebookRead",
+      "NotebookEdit",
+      "TodoRead",
+      "TodoWrite",
+      "WebSearch",
+      "Always reply in Chinese."
+    ],
+    "deny": [
+      "WebFetch",
+      "Bash(curl:*)"
+    ]
+  }
+}
