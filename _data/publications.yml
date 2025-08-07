@@ -40,7 +40,7 @@ main:
     page: https://ieeexplore.ieee.org/document/11106700
     image: ./assets/img/ral.png
     notes: "Accepted on May 22, 2025; * Corresponding author; † Co–first authors (Hongyu Nie and Xingyu Li)"
-    notes_zh: "2025年5月22日接受；*通讯作者；†共同第一作者（聂宏宇和李星宇）"
+    notes_zh: "2025年5月22日接受；*通讯作者；†共同第一作者（聂虹宇和李星宇）"
     # video: https://youtu.be/eZcdj34zb84
 
   - title: "Unified Linear Parametric Map Modeling and Perception-aware Trajectory Planning for Mobile Robotics"
@@ -49,9 +49,9 @@ main:
     authors_zh: "<strong>聂宏宇†</strong>, <strong>李星宇†</strong>, 刘旭*, 谭朝勇, 梅森, 苏文博"
     conference_short: Available on arXiv
     conference: "Available on arXiv, v1.0"
-    conference_zh: "投稿至 IEEE Transactions on Robotics (TRO), 2025年7月"
+    conference_zh: "Available on arXiv, v1.0"
     image: ./assets/img/tro.png
     pdf: https://arxiv.org/abs/2507.09340
     notes: "Currently available on arXiv; * Corresponding author; † Co–first authors (Hongyu Nie and Xingyu Li)"
-    notes_zh: "目前可在 arXiv 上获取；*通讯作者；†共同第一作者（聂宏宇和李星宇）"
+    notes_zh: "目前可在 arXiv 上获取；*通讯作者；†共同第一作者（聂虹宇和李星宇）"
     # video: https://youtu.be/eZcdj34zb84
