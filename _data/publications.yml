@@ -48,7 +48,7 @@ main:
     authors: "<strong>Hongyu Nie*†</strong>, <strong>Xingyu Li†</strong>, Xu Liu, Zhaotong Tan, Sen Mei, Wenbo Su"
     authors_zh: "<strong>聂宏宇†</strong>, <strong>李星宇†</strong>, 刘旭*, 谭朝勇, 梅森, 苏文博"
     conference_short: Available on arXiv
-    conference: "Submitted to IEEE Transactions on Robotics (TRO), July 2025"
+    conference: "Available on arXiv, v1.0"
     conference_zh: "投稿至 IEEE Transactions on Robotics (TRO), 2025年7月"
     image: ./assets/img/tro.png
     pdf: https://arxiv.org/abs/2507.09340
