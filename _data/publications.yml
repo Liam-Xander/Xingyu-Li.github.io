@@ -37,6 +37,7 @@ main:
     conference_short: RA-L25
     conference: "IEEE Robotics and Automation Letters, 2025"
     conference_zh: "IEEE 机器人与自动化快报, 2025"
+    page: https://ieeexplore.ieee.org/document/11106700
     image: ./assets/img/ral.png
     notes: "Accepted on May 22, 2025; * Corresponding author; † Co–first authors (Hongyu Nie and Xingyu Li)"
     notes_zh: "2025年5月22日接受；*通讯作者；†共同第一作者（聂宏宇和李星宇）"
