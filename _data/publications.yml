@@ -47,7 +47,7 @@ main:
     title_zh: "面向移动机器人的统一线性参数化地图建模与感知-规划一体化"
     authors: "<strong>Hongyu Nie*†</strong>, <strong>Xingyu Li†</strong>, Xu Liu, Zhaotong Tan, Sen Mei, Wenbo Su"
     authors_zh: "<strong>聂宏宇†</strong>, <strong>李星宇†</strong>, 刘旭*, 谭朝勇, 梅森, 苏文博"
-    conference_short: Submitted to TRO
+    conference_short: Available on arXiv
     conference: "Submitted to IEEE Transactions on Robotics (TRO), July 2025"
     conference_zh: "投稿至 IEEE Transactions on Robotics (TRO), 2025年7月"
     image: ./assets/img/tro.png
