@@ -51,7 +51,7 @@ main:
     conference: "Available on arXiv, v1.0"
     conference_zh: "Available on arXiv, v1.0"
     image: ./assets/img/tro.png
-    pdf: https://arxiv.org/abs/2507.09340
+    pdf: https://arxiv.org/abs/2507.09340v1
     notes: "Currently available on arXiv; * Corresponding author; † Co–first authors (Hongyu Nie and Xingyu Li)"
     notes_zh: "目前可在 arXiv 上获取；*通讯作者；†共同第一作者（聂虹宇和李星宇）"
     # video: https://youtu.be/eZcdj34zb84
