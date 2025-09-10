@@ -4,6 +4,7 @@ const translations = {
     aboutMeText: "I'm Xingyu Li (李星宇) from China, and I'm currently focusing on UAVs, autonomous vehicles, machine learning, and lightweight mapping based on ML. <span style=\"color: #1976d2;\">I am applying for a Ph.D. program for Fall 2026.</span>",
     researchInterests: "Research Interests",
     researchInterestsText: `
+      <li>Enabling autonomous robots to make common-sense decisions in real, open environments by integrating symbolic planning, probabilistic reasoning, world modeling, and learning-based methods.</li>
       <li><strong>Machine Learning for Robotics:</strong> ML-based mapping, optimization frameworks, perception-aware trajectory planning</li>
       <li><strong>Environment Modeling & Representation:</strong> Real-time occupancy grid mapping, lightweight mapping algorithms, large-scale environment perception</li>
       <li><strong>Robotics and Autonomous Systems:</strong> Autonomous flight planning, multi-UAV cooperative systems, autonomous vehicle systems</li>
