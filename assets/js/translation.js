@@ -17,6 +17,7 @@ const translations = {
     aboutMeText: "我是来自中国的李星宇，目前专注于无人机、自动驾驶、机器学习以及基于机器学习的轻量化建图。 <span style=\"color: #1976d2;\">我正在申请2026年秋季的博士项目。</span>",
     researchInterests: "研究方向",
     researchInterestsText: `
+      <li>通过整合符号规划、概率推理、世界建模和基于学习的方法，使自主机器人能够在真实、开放的环境中做出常识性决策</li>
       <li><strong>机器人机器学习:</strong> 基于机器学习的建图、优化框架、感知意识规划</li>
       <li><strong>环境表征:</strong> 实时占据栅格地图、轻量化建图算法、大规模环境感知</li>
       <li><strong>机器人与自主系统:</strong> 自主飞行规划、多无人机协同系统、自动驾驶系统</li>
