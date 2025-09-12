@@ -2,7 +2,7 @@ main:
 
   - title: Real-Time Occupancy Grid Mapping Using RMM on Large-scale and Unstructured Environments
     title_zh: 在大型非结构化环境中使用RMM进行实时占据栅格建图
-    authors: "<strong>Xingyu Li*</strong> Haoxuan Xu, Xingrui Liu, Zhaotong Tan (*Corresponding authors)"
+    authors: "<strong>Xingyu Li*</strong>, Haoxuan Xu, Xingrui Liu, Zhaotong Tan (*Corresponding authors)"
     authors_zh: "<strong>李星宇</strong>, 徐浩轩, 刘兴瑞, 谭朝勇 (*通讯作者)"
     conference_short: IROS25
     conference: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025."
