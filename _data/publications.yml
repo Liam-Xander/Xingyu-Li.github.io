@@ -27,6 +27,7 @@ main:
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Oral Presentation
+    notes_zh: 口头报告
     image: ./assets/img/multi_uav.png
     video: https://youtu.be/eZcdj34zb84
 
