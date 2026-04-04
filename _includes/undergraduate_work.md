@@ -20,7 +20,7 @@
     <div class="title">
       <a id="undergrad-1-title"
          data-en="National University Mechanical Engineering Innovation and Creativity Competition – Zhuoran-Dushun Cup"
-         data-zh="全国大学生机械工程创新创意大赛 – 卓然独秀杯">
+         data-zh="全国大学生机械工程创新创意大赛 – 卓然笃顺杯">
         National University Mechanical Engineering Innovation and Creativity Competition – Zhuoran-Dushun Cup
       </a>
     </div>
