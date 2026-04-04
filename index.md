@@ -29,4 +29,6 @@ layout: homepage
 
 {% include_relative _includes/publications.md %}
 
+{% include_relative _includes/undergraduate_work.md %}
+
 {% include_relative _includes/services.md %}

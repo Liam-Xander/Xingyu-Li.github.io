@@ -4,9 +4,9 @@
 // =============================================================
 const zh = {
   aboutMe: "关于我",
-  aboutMeText: `我是来自中国的李星宇，目前专注于无人机、自动驾驶、机器学习以及基于机器学习的轻量化建图。在我的硕士研究期间，我的导师是<a href="https://scholar.google.com/citations?user=Ajf_NNsAAAAJ&hl=zh-CN">董久祥教授</a>。 <span style="color: #1976d2;">我正在申请2026年秋季的博士项目。</span>`,
+  aboutMeText: `我是来自中国的李星宇，目前专注于无人机、自动驾驶、机器学习以及基于机器学习的轻量化建图。在我的硕士研究期间，我的导师是<a href="https://scholar.google.com/citations?user=Ajf_NNsAAAAJ&hl=zh-CN">董久祥教授</a>。 <span style="color: #1976d2;">我正在申请博士项目。</span>`,
   researchInterests: "研究兴趣",
-  researchAreas:     "研究方向",
+  researchAreas: "研究方向",
   researchIntro: "在硕士阶段，我完成了完整的无人机系统，涵盖感知建图、规划与控制全流程。我发现在非结构化和动态环境下，传统规划模块的瓶颈本质上源于感知表示的局限性。我希望利用学习方法替换或增强规划前端的场景表示与决策模块，在保留系统可靠性的同时提升泛化能力。",
   researchList: `
     <li>
@@ -23,6 +23,7 @@ const zh = {
     </li>
   `,
   publications: "学术出版",
+  undergradWork: "研究生前的工作",
   services: "学术服务",
 };
 
@@ -35,10 +36,11 @@ function cacheEnglish() {
   en.aboutMe = document.getElementById('about-me').textContent;
   en.aboutMeText = document.getElementById('about-me-text').innerHTML;
   en.researchInterest = document.getElementById('research-interests').textContent;
-  en.researchAreas    = document.getElementById('research-areas').textContent;
-  en.researchIntro    = document.getElementById('research-intro').innerHTML;
+  en.researchAreas = document.getElementById('research-areas').textContent;
+  en.researchIntro = document.getElementById('research-intro').innerHTML;
   en.researchList = document.getElementById('research-list').innerHTML;
   en.publications = document.getElementById('publications').textContent;
+  en.undergradWork = document.getElementById('undergrad-work').textContent;
   en.services = document.getElementById('services').textContent;
 }
 
@@ -51,10 +53,11 @@ function switchLanguage(lang) {
     document.getElementById('about-me').textContent = zh.aboutMe;
     document.getElementById('about-me-text').innerHTML = zh.aboutMeText;
     document.getElementById('research-interests').textContent = zh.researchInterests;
-    document.getElementById('research-areas').textContent     = zh.researchAreas;
-    document.getElementById('research-intro').innerHTML       = zh.researchIntro;
+    document.getElementById('research-areas').textContent = zh.researchAreas;
+    document.getElementById('research-intro').innerHTML = zh.researchIntro;
     document.getElementById('research-list').innerHTML = zh.researchList;
     document.getElementById('publications').textContent = zh.publications;
+    document.getElementById('undergrad-work').textContent = zh.undergradWork;
     document.getElementById('services').textContent = zh.services;
     document.querySelectorAll('[data-zh]').forEach(el => {
       el.innerHTML = el.getAttribute('data-zh');
@@ -64,10 +67,11 @@ function switchLanguage(lang) {
     document.getElementById('about-me').textContent = en.aboutMe;
     document.getElementById('about-me-text').innerHTML = en.aboutMeText;
     document.getElementById('research-interests').textContent = en.researchInterest;
-    document.getElementById('research-areas').textContent     = en.researchAreas;
-    document.getElementById('research-intro').innerHTML       = en.researchIntro;
+    document.getElementById('research-areas').textContent = en.researchAreas;
+    document.getElementById('research-intro').innerHTML = en.researchIntro;
     document.getElementById('research-list').innerHTML = en.researchList;
     document.getElementById('publications').textContent = en.publications;
+    document.getElementById('undergrad-work').textContent = en.undergradWork;
     document.getElementById('services').textContent = en.services;
     document.querySelectorAll('[data-en]').forEach(el => {
       el.innerHTML = el.getAttribute('data-en');
