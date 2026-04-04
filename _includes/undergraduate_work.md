@@ -5,9 +5,9 @@
 
 <li>
 <div class="pub-row" id="undergrad-1">
-  <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px;">
+  <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px; overflow: hidden; max-height: 200px;">
     <!-- Replace the src below with your actual GIF path, e.g., ./assets/img/cup_project.gif -->
-    <img src="./assets/img/cup_project.gif" class="teaser img-fluid z-depth-1" style="width:100%; height:auto;" onerror="this.style.display='none'">
+    <img src="./assets/img/cup_project.gif" alt="Zhuoran-Dushun Cup project demo" class="teaser img-fluid z-depth-1" style="width:100%; height:200px; object-fit:cover;" onerror="this.style.display='none'">
     <abbr class="badge">2022</abbr>
   </div>
   <div class="col-sm-9" style="position: relative; padding-right: 15px; padding-left: 20px;">
