@@ -10,7 +10,7 @@ layout: homepage
 
 <p id="research-intro">During my Master's studies, I built a complete UAV system covering perception-based mapping, planning, and control. I found that the bottleneck of traditional planning modules in unstructured and dynamic environments fundamentally stems from the limitations of perceptual representation. I aim to apply learning-based methods to replace or augment the scene representation and decision-making at the planning front-end, improving generalization while preserving system reliability.</p>
 
-<h2 id="research-areas">Research Areas</h2>
+## Research Areas
 
 <ul id="research-list">
   <li>
