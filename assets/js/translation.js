@@ -28,7 +28,6 @@ const translations = {
 };
 
 function switchLanguage(lang) {
-  localStorage.setItem('language', lang);
   applyTranslations(lang);
 }
 
@@ -51,6 +50,5 @@ function applyTranslations(lang) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  const savedLang = localStorage.getItem('language') || 'en';
-  applyTranslations(savedLang);
+  applyTranslations('en');
 });
