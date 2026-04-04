@@ -4,17 +4,23 @@
 <ol class="bibliography">
 
 <li>
-<div class="pub-row" id="undergrad-1">
-  <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px; overflow: hidden; max-height: 200px;">
-    <!-- Replace the src below with your actual GIF path, e.g., ./assets/img/cup_project.gif -->
-    <img src="./assets/img/cup_project.gif" alt="Zhuoran-Dushun Cup project demo" class="teaser img-fluid z-depth-1" style="width:100%; height:200px; object-fit:cover;" onerror="this.style.display='none'">
-    <abbr class="badge">2022</abbr>
+<div id="undergrad-1" style="margin-bottom: 20px;">
+
+  <!-- GIF image: full width, stacked on top -->
+  <div style="width: 100%; margin-bottom: 12px; overflow: hidden; border-radius: 4px;">
+    <img src="./assets/img/cup_project.gif"
+         alt="Zhuoran-Dushun Cup project demo"
+         class="img-fluid z-depth-1"
+         style="width: 100%; height: auto; display: block;"
+         onerror="this.style.display='none'">
   </div>
-  <div class="col-sm-9" style="position: relative; padding-right: 15px; padding-left: 20px;">
+
+  <!-- Text content: below the image -->
+  <div style="padding-left: 5px;">
     <div class="title">
       <a id="undergrad-1-title"
          data-en="National University Mechanical Engineering Innovation and Creativity Competition – Zhuoran-Dushun Cup"
-         data-zh="全国大学生机械工程创新创意大赛 – 卓然笃顺杯">
+         data-zh="全国大学生机械工程创新创意大赛 – 卓然独秀杯">
         National University Mechanical Engineering Innovation and Creativity Competition – Zhuoran-Dushun Cup
       </a>
     </div>
@@ -24,11 +30,10 @@
       National Second Prize &nbsp;·&nbsp; Team Leader
     </div>
     <div class="periodical">
-      <em id="undergrad-1-year"
-          data-en="2022"
-          data-zh="2022">2022</em>
+      <em id="undergrad-1-year" data-en="2022" data-zh="2022">2022</em>
     </div>
   </div>
+
 </div>
 </li>
 
